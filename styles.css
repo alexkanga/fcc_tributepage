@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  
+}
+
+body {
+  margin: 0;
+  background: #000;
+  padding: 0;
+  font-family: verdana, arial, sans-serif;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(236, 175, 19);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 2%;
+  font-size: 3rem;
+}
+header h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 100%;
+}
+article p {
+  text-align: center;
+}
+article img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: 0;
+}
+
+#img-div {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#img-caption {
+  padding: 2rem;
+  color: rgb(236, 175, 19);
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+#tribute-info p:not(.plus-infos) {
+  text-align: justify;
+  padding: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+#image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  display:block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.plus-infos {
+  padding: 0.5rem;
+  font-style: italic;
+}
+
+p.plus-infos a {
+  text-decoration: none;
+  color: rgb(236, 175, 19);
+}
+
+footer {
+  color: aqua;
+  text-align: center;
+  padding: 2rem;
+}
+footer a {
+  color: aqua;
+  text-decoration: none;
+  display: inline;
+}
